@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "69d7be20-cee5-45a2-b516-e365f6ca452d",
+		"name": "momentum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PUT for api/investiment-fund/<id:1>",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Artesanal Investimentos\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/investiment-fund/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"investiment-fund",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET all api/investiment-fund",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/investiment-fund",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"investiment-fund"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET api/investiment-fund/<id:1>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/investiment-fund/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"investiment-fund",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST new api/investiment-fund",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"ARTESANAL TOTAL RETURN FUNDO DE INVESTIMENTO MULTIMERCADO\",\n    \"administrator\": \"BTG PACTUAL SERVIÇOS FINANCEIROS\",\n    \"manager\": \"ARTESANAL INVESTIMENTOS\",\n    \"cnpj\": \"37.008.435/0001-92\",\n    \"benchmark\": \"CDI\",\n    \"fund_type\": null,\n    \"fund_class\": null,\n    \"fund_subclass\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/investiment-fund",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"investiment-fund"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE api/investiment-fund/<id:1>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/investiment-fund/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"investiment-fund",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
