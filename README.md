@@ -10,7 +10,7 @@ $ pip install -r requirements.txt
 
 Depois rode a API:
 ``` sh
-$ python manage.py runserver
+$ python3 manage.py runserver
 ```
 Agora o projeto já está rodando e, por padrão, começara em: http://127.0.0.1:8000/
 
